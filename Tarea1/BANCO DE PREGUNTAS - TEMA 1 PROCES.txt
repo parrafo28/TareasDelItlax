@@ -1,0 +1,321 @@
+// BANCO DE 65 PREGUNTAS VARIANTES - TEMA 1
+// Formato GIFT - Preguntas para confundir y evaluar comprensión
+
+$CATEGORY: $course$/tema 1
+
+// ====== VARIANTES DE MENTALIDAD CLIENTE-DESARROLLADOR ======
+
+::Responsabilidad del desarrollador::¿Cuál es la responsabilidad principal del desarrollador hacia el cliente?{
+~Educar al cliente en tecnología
+~Impresionar con código complejo
+=Entregar soluciones que funcionen
+~Usar las últimas tendencias
+}
+
+::Cliente sin conocimiento técnico::Si el cliente no entiende de tecnología, el desarrollador debe:{
+~Aprovecharse de su desconocimiento
+=Explicar en términos simples
+~Ignorar sus opiniones
+~Imponerle decisiones técnicas
+}
+
+::Verdadero o Falso - Cliente paga por tecnología::El cliente paga principalmente por la tecnología utilizada en el proyecto.{FALSE}
+
+::Decisiones técnicas del cliente::Cuando el cliente toma una decisión técnica incorrecta, se debe:{
+~Implementarla sin cuestionar
+~Rechazarla rotundamente
+=Explicar las consecuencias y ofrecer alternativas
+~Ignorar la decisión
+}
+
+::Arrogancia del desarrollador::La arrogancia técnica del desarrollador:{
+~Es necesaria para mostrar expertise
+~Impresiona a los clientes
+=Aleja a los clientes
+~Es parte del trabajo
+}
+
+// ====== VARIANTES DE DOCUMENTACIÓN Y ANÁLISIS ======
+
+::Diferencia requerimientos y propuesta::¿Cuál es la diferencia principal entre documento de requerimientos y propuesta técnica?{
+~No hay diferencia
+=Requerimientos define QUÉ, propuesta define CÓMO
+~Propuesta define QUÉ, requerimientos define CÓMO
+~Ambos definen lo mismo
+}
+
+::Construcción sin documentación::Comenzar a construir software sin documentación previa:{
+~Es más eficiente
+~Ahorra tiempo
+=Genera retrabajos y confusión
+~Es la práctica moderna
+}
+
+::Verdadero o Falso - MVP completo::Un MVP debe incluir todas las características que el cliente desea.{FALSE}
+
+ 
+
+ 
+
+ 
+
+::Dependencias en MVP::Al definir un MVP, las dependencias técnicas:{
+~Se ignoran
+~Se posponen
+=Se incluyen aunque el cliente no las pida
+~Se eliminan
+}
+
+::Verdadero o Falso - Propuesta sin costos::Una propuesta técnica puede omitir los costos del proyecto.{FALSE}
+
+// ====== VARIANTES DE ESTIMACIÓN Y COSTOS ======
+
+::Costos directos definición::Los costos directos incluyen:{
+~Electricidad de la oficina
+~Internet mensual
+=Licencias específicas del proyecto
+~Depreciación de equipos
+}
+
+::Cálculo sin costos indirectos::Calcular presupuesto sin incluir costos indirectos:{
+~Es más competitivo
+~Es práctica común
+=Puede generar pérdidas
+~Es más profesional
+}
+
+::Verdadero o Falso - Margen cero::Es viable trabajar con margen de ganancia del 0%.{FALSE}
+
+::Estimación en Fibonacci::La serie de Fibonacci en estimación se usa porque:{
+~Es matemáticamente perfecta
+=Refleja la incertidumbre creciente
+~Es fácil de calcular
+~Es obligatoria en Scrum
+}
+
+::Buffer del 20%::Agregar 20% de buffer a las estimaciones:{
+~Es robar al cliente
+~Es innecesario
+=Es una práctica prudente
+~Es obligatorio siempre
+}
+
+::Verdadero o Falso - Discovery gratis::La fase de Discovery siempre debe ser gratuita.{FALSE}
+
+::Cobrar por proyecto cerrado::Una desventaja de cobrar por proyecto cerrado es:{
+~El cliente paga más
+=Los cambios requieren renegociación
+~Es más fácil de gestionar
+~Se gana más dinero
+}
+
+// ====== VARIANTES DE METODOLOGÍAS ÁGILES ======
+
+::Duración típica Sprint::La duración típica de un Sprint en Scrum es:{
+~1 día
+~1 semana
+=2-4 semanas
+~3 meses
+}
+
+::Scrum Master vs Product Owner::¿Puede la misma persona ser Scrum Master y Product Owner?{
+~Sí, es recomendable
+=No, genera conflicto de intereses
+~Sí, en equipos grandes
+~Depende del proyecto
+}
+
+ 
+
+::Verdadero o Falso - XP sin tests::Extreme Programming puede practicarse sin escribir tests.{FALSE}
+
+ 
+
+::Pair Programming beneficio::El principal beneficio del Pair Programming es:{
+~Trabajar más rápido
+~Reducir costos
+=Compartir conocimiento y reducir errores
+~Cumplir con XP
+}
+
+::GitFlow - Hotfix origen::En GitFlow, una rama hotfix se crea desde:{
+~develop
+~feature
+=main/master
+~release
+}
+
+::GitHub Flow para equipos grandes::GitHub Flow es ideal para:{
+~Equipos con releases planificadas
+~Proyectos con múltiples versiones
+=Equipos con despliegue continuo
+~Desarrollo waterfall
+}
+
+::Verdadero o Falso - Feature flags obligatorias::Trunk-Based Development siempre requiere feature flags.{TRUE}
+
+::Sprint Review vs Retrospectiva::La diferencia entre Sprint Review y Retrospectiva es:{
+~No hay diferencia
+=Review muestra producto, Retrospectiva mejora proceso
+~Review es interna, Retrospectiva es con cliente
+~Review es opcional, Retrospectiva obligatoria
+}
+
+::Daily Standup duración::Una Daily Standup debe durar máximo:{
+~1 hora
+~30 minutos
+=15 minutos
+~5 minutos
+}
+
+// ====== VARIANTES DE ARQUITECTURA ======
+
+ 
+
+ 
+
+ 
+
+::Microservicios complejidad::Los microservicios añaden complejidad en:{
+~El código de cada servicio
+~La lógica de negocio
+=La comunicación entre servicios
+~Los tests unitarios
+}
+
+::Monolito - Principal ventaja::La principal ventaja de un monolito es:{
+~Mejor rendimiento siempre
+~Más moderno
+=Simplicidad de despliegue y debugging
+~Usa menos recursos
+}
+
+ 
+
+ 
+
+// ====== VARIANTES DE CONTROL DE VERSIONES ======
+
+::Verdadero o Falso - Commit sin .gitignore::Es buena práctica hacer commits sin configurar .gitignore.{FALSE}
+
+::Versionado - Minor increment::Se incrementa el número Minor cuando:{
+~Se corrige un bug
+=Se agrega funcionalidad compatible
+~Se rompe compatibilidad
+~Se hace refactoring
+}
+
+ 
+
+::Verdadero o Falso - Issues solo bugs::Los Issues en GitHub son solo para reportar bugs.{FALSE}
+
+ 
+
+// ====== VARIANTES DE HISTORIAS DE USUARIO ======
+
+::Historia usuario - Rol faltante::Una historia sin especificar el rol:{
+~Es más flexible
+~Es moderna
+=Carece de contexto importante
+~Es más rápida de implementar
+}
+
+::Épica vs Historia::Una épica comparada con una historia es:{
+~Más detallada
+~Más técnica
+=Más grande y abstracta
+~Más fácil de estimar
+}
+
+::Verdadero o Falso - DoD universal::El Definition of Done es igual para todos los proyectos.{FALSE}
+
+::Criterios aceptación vagos::Criterios de aceptación como "debe funcionar bien":{
+~Son suficientes
+~Permiten creatividad
+=Son inadecuados por ser ambiguos
+~Son los mejores
+}
+
+ 
+
+::Velocity constante::La velocity de un equipo:{
+~Siempre aumenta
+~Es fija desde el inicio
+=Varía y se estabiliza con el tiempo
+~Siempre disminuye
+}
+
+ 
+
+ 
+
+::Story Points vs Horas::Story Points son mejores que horas porque:{
+~Son más precisos
+~Son más fáciles
+=Consideran complejidad, no solo tiempo
+~Son obligatorios
+}
+
+ 
+
+// ====== PREGUNTAS MIXTAS Y DE INTEGRACIÓN ======
+
+::Desarrollador sin Project Manager::Un desarrollador trabajando sin Project Manager debe:{
+~Rechazar el proyecto
+~Cobrar el doble
+=Asumir responsabilidades de gestión
+~Trabajar sin planificación
+}
+
+::Cliente técnico::Cuando el cliente tiene conocimiento técnico:{
+~Se ignoran sus sugerencias técnicas
+=Se valoran pero se mantiene criterio profesional
+~Se le deja tomar todas las decisiones
+~Se cobra menos
+}
+
+::Verdadero o Falso - Ágil sin documentación::Las metodologías ágiles eliminan toda documentación.{FALSE}
+
+::Deuda técnica::La deuda técnica se debe:{
+~Evitar a toda costa
+~Ignorar siempre
+=Gestionar conscientemente
+~Pagar inmediatamente
+}
+
+::Refactoring momento::El mejor momento para refactoring es:{
+~Nunca
+~Al final del proyecto
+=Continuamente en pequeñas dosis
+~Solo cuando falla
+}
+
+::Code Review propósito::El propósito principal del Code Review es:{
+~Criticar al desarrollador
+~Demostrar superioridad
+=Mejorar calidad y compartir conocimiento
+~Cumplir con el proceso
+}
+
+::Verdadero o Falso - Tests opcionales::Los tests automatizados son opcionales en desarrollo profesional.{FALSE}
+
+::Cambio de requerimientos::Los cambios de requerimientos en mitad del proyecto:{
+~Demuestran incompetencia del cliente
+~Deben rechazarse siempre
+=Son normales y deben gestionarse
+~Son gratuitos siempre
+}
+
+::Principio YAGNI::YAGNI (You Aren't Gonna Need It) sugiere:{
+~Nunca planificar
+=No implementar funcionalidades no solicitadas
+~No escribir documentación
+~No hacer tests
+}
+
+::Over-engineering::El over-engineering es problemático porque:{
+~Usa poca tecnología
+~Es muy simple
+=Añade complejidad innecesaria
+~Es muy barato
+}
